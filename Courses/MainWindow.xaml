@@ -8,20 +8,51 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <PasswordBox x:Name="PasswordBox"
-             Grid.Row="1" Grid.Column="1"
              HorizontalAlignment="Left" 
-             Width="300" Height="25"
-             Margin="6,7,0,7" />
+             Width="187"
+             Margin="6,183,0,204" RenderTransformOrigin="0.5,0.5">
+            <PasswordBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="31.828"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </PasswordBox.RenderTransform>
+        </PasswordBox>
+        <Label Content="Podaj Hasło" Width="187" Margin="5,182,608,205" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="212.681"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
         <Button Content="Login"
-        Grid.Row="4" Grid.Column="1"
         Command="{Binding LoginCommand}"
         CommandParameter="{Binding ElementName=PasswordBox}"
         Height="31" Width="92"
-        Margin="5,9,0,0"
-              />
+        Margin="40,77,668,326" RenderTransformOrigin="0.5,0.5"
+              >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-40.068"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
         <TextBox x:Name="boxik"
         HorizontalAlignment="Left" 
-        Width="300" Height="100"
-        Margin="6,235,0,0" />
+        Width="205"
+        Margin="195,333,0,50" />
+        <MediaElement x:Name="Video"
+        Margin="468,31,45,15"
+        Source="E:\donwloads\How to Protect Online Course Videos (Part 1⧸3).mp4"
+        IsMuted="True"
+        />
     </Grid>
 </Window>
