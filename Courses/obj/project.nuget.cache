@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2hDLZzaydPxSWF4+tdHKzdukEx2w3MlpXKldRhct7kzEAcSUPEY11cTrWJ0aWBffSGK7hFLrdy3Gab4BvFuy2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kubol\\source\\repos\\Courses\\Courses\\Courses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kubol\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512"
+  ],
+  "logs": []
+}
